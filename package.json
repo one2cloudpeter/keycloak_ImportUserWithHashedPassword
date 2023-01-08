@@ -1,0 +1,13 @@
+{
+  "name": "keycloak-admin-client",
+  "version": "1.0.0",
+  "description": "Keycloak Admin Client",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "@keycloak/keycloak-admin-client": "^20.0.2"
+  }
+}
