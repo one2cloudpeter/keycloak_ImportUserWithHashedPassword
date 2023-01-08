@@ -1,8 +1,7 @@
 # keycloak lab [import user with bcrypt hashed password]
 
 ## provision a default keycloak 15.0.2 in docker compose
-https://github.com/bitnami/bitnami-docker-keycloak/tree/15.0.2-debian-10-r106
-run 15.0.2 keycloak in docker compose
+run 15.0.2 keycloak in docker compose (ref:https://github.com/bitnami/bitnami-docker-keycloak/tree/15.0.2-debian-10-r106)
 ```
 docker-compose up
 ```
@@ -20,7 +19,7 @@ KEYCLOAK_BCRYPT_VERSION=1.5.0
 curl -L https://github.com/leroyguillaume/keycloak-bcrypt/releases/download/${KEYCLOAK_BCRYPT_VERSION}/keycloak-bcrypt-${KEYCLOAK_BCRYPT_VERSION}.jar > ${KEYCLOAK_HOME}/standalone/deployments/keycloak-bcrypt-${KEYCLOAK_BCRYPT_VERSION}.jar
 ```
 
-then restart the keycloak  #https://github.com/bitnami/bitnami-docker-keycloak/blob/15.0.2-debian-10-r106/15/debian-10/Dockerfile#:~:text=/opt/bitnami/scripts/keycloak/run.sh
+then restart the keycloak  (ref:https://github.com/bitnami/bitnami-docker-keycloak/blob/15.0.2-debian-10-r106/15/debian-10/Dockerfile#:~:text=/opt/bitnami/scripts/keycloak/run.sh)
 ```
 /opt/bitnami/scripts/keycloak/run.sh
 ```
