@@ -1,4 +1,4 @@
-# keycloak lab [input user with bcrypt hashed password]
+# keycloak lab [import user with bcrypt hashed password]
 
 ## provision a default keycloak 15.0.2 in docker compose
 https://github.com/bitnami/bitnami-docker-keycloak/tree/15.0.2-debian-10-r106
@@ -45,6 +45,8 @@ npm install @keycloak/keycloak-admin-client
 
 npm start
 ```
+
+You may now try to login the newly created user in http://localhost/auth/realms/hexadefence/account/#/ (e.g. username: user1, password: $ecure2KT)
 
 
 
