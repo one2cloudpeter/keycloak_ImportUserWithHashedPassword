@@ -1,6 +1,7 @@
 import KcAdminClient from '@keycloak/keycloak-admin-client'
 import database from './database.json' assert { type: 'json' };
 
+// Reference: https://dev.to/carnewal/import-existing-users-with-bcrypt-hashed-passwords-in-keycloak-17oo
 const adminClient = new KcAdminClient({
     baseUrl: 'http://localhost:80/auth',
     realmName: 'hexadefence'
