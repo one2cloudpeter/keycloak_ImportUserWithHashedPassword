@@ -3,6 +3,8 @@
 ## provision a default keycloak 15.0.2 in docker compose
 run 15.0.2 keycloak in docker compose (ref:https://github.com/bitnami/bitnami-docker-keycloak/tree/15.0.2-debian-10-r106)
 ```
+cd ./keycloak_ImportUserWithHashedPassword
+
 docker-compose up
 ```
 
