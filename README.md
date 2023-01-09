@@ -34,6 +34,12 @@ localhost:80
 To verify the bcrypt is installed. login the keycloak. go to Authenitcation tab, then go to password policy tab, add Hashing algorthim, change the algorithmn to bcrypt and save, if it allow you to save, that mean you have successfully install the keycloak bcrypt provider.
 
 
+Before install the bcrypt keycloak provider the hashing algorith bcrypt not work
+![](https://i.imgur.com/Wyt04CR.png)
+
+After install the bcrypt keycloak provider
+![](https://i.imgur.com/pnfwc9R.png)
+
 ## test import users with bcrypt hashed password
 follow this video to create a hexadefence realm, create a client assign role permission to that client and create a user.
 https://youtu.be/nkvBy4wefbs?t=49
