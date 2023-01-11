@@ -1,5 +1,5 @@
 # keycloak lab [import user with bcrypt hashed password]
-Since Auth0 is hash the password with bcrypt (https://auth0.com/docs/authenticate/database-connections#:~:text=Passwords are never stored or logged in plain text but are hashed with bcrypt) this lab is try to emulate import user with hashed password user into keycloak.
+Since Auth0 is hash the password with bcrypt (https://auth0.com/docs/authenticate/database-connections#:~:text=Passwords%20are%20never%20stored%20or%20logged%20in%20plain%20text%20but%20are%20hashed%20with%C2%A0bcrypt) this lab is try to emulate import user with hashed password user into keycloak.
 
 ## provision a default keycloak 15.0.2 in docker compose
 run 15.0.2 keycloak in docker compose (ref:https://github.com/bitnami/bitnami-docker-keycloak/tree/15.0.2-debian-10-r106)
