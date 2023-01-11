@@ -42,7 +42,7 @@ After install the bcrypt keycloak provider
 ![](https://i.imgur.com/pnfwc9R.png)
 
 ## test import users with bcrypt hashed password
-follow this video to create a hexadefence realm, create a client assign role permission to that client and create a user.
+follow this video to create a hexadefence realm, create a client and user, and assign role permission to the newly created user.
 https://youtu.be/nkvBy4wefbs?t=49
 
 
